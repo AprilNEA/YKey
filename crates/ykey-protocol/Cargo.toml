@@ -1,6 +1,35 @@
 [package]
 name = "ykey-protocol"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+description = "Protocol implementations for YKey hardware security keys"
+license = "MIT"
+authors = ["YKey Contributors"]
 
 [dependencies]
+# Core YKey types and traits
+ykey-core = { path = "../ykey-core" }
+
+# Async runtime and traits
+async-trait = { workspace = true }
+tokio = { workspace = true }
+
+# Serialization
+serde = { workspace = true }
+serde_json = { workspace = true }
+serde_cbor = { workspace = true }
+
+# Error handling
+thiserror = { workspace = true }
+anyhow = { workspace = true }
+
+# CBOR encoding/decoding
+ciborium = "0.2"
+
+# Cryptography
+ring = "0.17"
+base64 = "0.22"
+
+# Additional utilities
+hex = "0.4"
+rand = "0.8"
