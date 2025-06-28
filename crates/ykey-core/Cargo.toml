@@ -1,6 +1,25 @@
 [package]
 name = "ykey-core"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+description = "Core traits and types for YKey hardware security key management"
+license = "MIT"
+authors = ["YKey Contributors"]
 
 [dependencies]
+# Async runtime and traits
+async-trait = { workspace = true }
+tokio = { workspace = true }
+
+# Serialization
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+# Error handling
+thiserror = { workspace = true }
+anyhow = { workspace = true }
+
+# Date and time
+chrono = { version = "0.4", features = ["serde"] }
+
+# Standard collections and utilities are provided by Rust std library
