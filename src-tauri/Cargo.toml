@@ -1,5 +1,5 @@
 [package]
-name = "ykey"
+name = "ykey-desktop"
 version = "0.1.0"
 description = "Your Personal Cross-platform Hardware Key Manager"
 authors = ["you"]
@@ -22,4 +22,21 @@ tauri = { version = "2", features = [] }
 tauri-plugin-opener = "2"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
+serde_cbor = "0.11"
+anyhow = "1.0"
+thiserror = "2.0"
 
+# HID Device Communication
+hidapi = "2.4"
+rusb = "0.9"
+
+# FIDO2/WebAuthn Protocol
+webauthn-authenticator-rs = "0.5"
+ctap-hid-fido2 = "3.5"
+
+# Async Support
+tokio = { version = "1.0", features = ["full"] }
+
+# Cryptography
+ring = "0.17"
+base64 = "0.22"

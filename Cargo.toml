@@ -1,0 +1,39 @@
+[workspace]
+members = [
+    "crates/ykey-core",
+    "crates/ykey-protocol", 
+    "crates/ykey-device",
+    # "crates/ykey-crypto",
+    "crates/ykey-platform",
+    # "crates/xkey-service",
+    # "crates/xkey-api",
+    "ykey-desktop",
+]
+
+[workspace.dependencies]
+# 异步运行时
+tokio = { version = "1.0", features = ["full"] }
+async-trait = "0.1"
+
+# 序列化
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_cbor = "0.11"
+
+# 错误处理
+anyhow = "1.0"
+thiserror = "1.0"
+
+# 日志
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+# 配置
+config = "0.13"
+
+# 网络
+reqwest = { version = "0.11", features = ["json"] }
+
+# UI
+tauri = { version = "1.0", features = ["api-all"] }
+egui = "0.24"
