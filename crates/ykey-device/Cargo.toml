@@ -1,6 +1,25 @@
 [package]
 name = "ykey-device"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+description = "Device management layer for YKey hardware security keys"
+license = "MIT"
+authors = ["YKey Contributors"]
 
 [dependencies]
+# Core YKey types and traits
+ykey-core = { path = "../ykey-core" }
+
+# Async runtime and traits
+async-trait = { workspace = true }
+tokio = { workspace = true }
+
+# Serialization
+serde = { workspace = true }
+serde_json = { workspace = true }
+
+# Error handling
+thiserror = { workspace = true }
+anyhow = { workspace = true }
+
+# Collections and utilities provided by Rust std library
