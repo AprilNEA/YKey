@@ -1,3 +1,8 @@
+/**
+ * Copyright 2025 AprilNEA LLC
+ * SPDX-License-Identifier: MIT
+ */
+
 import { useState, useEffect } from "react"
 import { PlusCircle, Copy } from "lucide-react"
 import { Button } from "@/components/ui/button"

@@ -1,3 +1,8 @@
+/**
+ * Copyright 2025 AprilNEA LLC
+ * SPDX-License-Identifier: MIT
+ */
+
 import { Link } from "wouter"
 import { KeyRound, Fingerprint, Clock, ShieldCheck, FileKey, Settings, ArrowRight, Lock } from "lucide-react"
 import { Button } from "@/components/ui/button"

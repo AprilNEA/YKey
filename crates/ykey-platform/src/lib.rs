@@ -1,3 +1,6 @@
+// Copyright 2025 AprilNEA LLC
+// SPDX-License-Identifier: MIT
+
 // crates/xkey-platform/src/lib.rs
 pub mod discovery;
 

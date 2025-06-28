@@ -1,3 +1,8 @@
+/**
+ * Copyright 2025 AprilNEA LLC
+ * SPDX-License-Identifier: MIT
+ */
+
 import "./index.css";
 import { Route, Router } from "wouter";
 

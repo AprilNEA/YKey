@@ -1,3 +1,8 @@
+/**
+ * Copyright 2025 AprilNEA LLC
+ * SPDX-License-Identifier: MIT
+ */
+
 import { useState, useRef, useEffect, ReactNode } from "react"
 import { Button } from "./button"
 

@@ -1,3 +1,6 @@
+// Copyright 2025 AprilNEA LLC
+// SPDX-License-Identifier: MIT
+
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 
