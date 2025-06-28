@@ -1,5 +1,5 @@
 [package]
-name = "ykey-desktop"
+name = "ykey"
 version = "0.1.0"
 description = "Your Personal Cross-platform Hardware Key Manager"
 authors = ["you"]

@@ -7,7 +7,7 @@ members = [
     "crates/ykey-platform",
     # "crates/xkey-service",
     # "crates/xkey-api",
-    "ykey-desktop",
+    "src-tauri",
 ]
 
 [workspace.dependencies]
