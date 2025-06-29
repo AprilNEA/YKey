@@ -26,6 +26,14 @@ serde_cbor = "0.11"
 anyhow = "1.0"
 thiserror = "2.0"
 
+# YKey Crates
+ykey-core = { path = "../crates/ykey-core" }
+ykey-device = { path = "../crates/ykey-device" }
+
+# Async Support
+tokio = { version = "1.0", features = ["full"] }
+async-trait = "0.1"
+
 # HID Device Communication
 hidapi = "2.4"
 rusb = "0.9"
@@ -33,9 +41,6 @@ rusb = "0.9"
 # FIDO2/WebAuthn Protocol
 webauthn-authenticator-rs = "0.5"
 ctap-hid-fido2 = "3.5"
-
-# Async Support
-tokio = { version = "1.0", features = ["full"] }
 
 # Cryptography
 ring = "0.17"

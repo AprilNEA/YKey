@@ -5634,6 +5634,7 @@ name = "ykey"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "async-trait",
  "base64 0.22.1",
  "ctap-hid-fido2",
  "hidapi",
@@ -5648,6 +5649,8 @@ dependencies = [
  "thiserror 2.0.12",
  "tokio",
  "webauthn-authenticator-rs",
+ "ykey-core",
+ "ykey-device",
 ]
 
 [[package]]
