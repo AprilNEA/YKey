@@ -23,3 +23,7 @@ thiserror = { workspace = true }
 anyhow = { workspace = true }
 
 # Collections and utilities provided by Rust std library
+
+[[example]]
+name = "test_yubikey"
+path = "examples/test_yubikey.rs"
